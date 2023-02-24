@@ -27,3 +27,9 @@ void SLPopBakc(SL* pc);
 void SLPushFront(SL* pc);
 //头删
 void SLPopFront(SL* pc);
+//查找
+int SLFind(SL* pc, SLDataType x);
+//任意位置插入
+void SLInsert(SL* pc, int pos, SLDataType x);
+//任意位置删除
+void SLErase(SL* pc, int pos);
