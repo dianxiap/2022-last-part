@@ -46,3 +46,42 @@ void SLTPushBack(SLTnode** pphead, SLTDataType x)
 		tail->next = newnode;
 	}
 }
+//尾删
+void SLTPopBack(SLTnode** pphead)
+{
+	//1.检查是否为空
+	assert(*pphead);
+	//2.只有一个节点
+	if ((*pphead)->next == NULL)
+	{
+		free(*pphead);
+		*pphead = NULL;
+	}
+	else
+	{
+		SLTnode* tail = *pphead;
+		while (tail->next->next != NULL)
+		{
+			tail = tail->next;
+		}
+		free(tail->next);
+		tail->next = NULL;
+	}
+}
+//头插
+void SLTPushFront(SLTnode** pphead, SLTDataType x)
+{
+	SLTnode* newnode = BuySLTNode(x);
+	newnode->next = *pphead;
+	*pphead = newnode;
+}
+//头删
+void SLTPopFront(SLTnode** pphead)
+{
+	//1.检查是否为空
+	assert(*pphead);
+	SLTnode* first = *pphead;
+	*pphead = first->next;
+	free(first);
+	first = NULL;
+}
