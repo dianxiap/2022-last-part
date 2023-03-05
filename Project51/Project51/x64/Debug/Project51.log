@@ -1,0 +1,6 @@
+﻿  源.cpp
+E:\草稿箱\learning-process\Project51\Project51\源.cpp(13,57): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+E:\草稿箱\learning-process\Project51\Project51\源.cpp(14,57): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+E:\草稿箱\learning-process\Project51\Project51\源.cpp(40,18): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\草稿箱\learning-process\Project51\Project51\源.cpp(41,18): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  Project51.vcxproj -> E:\草稿箱\learning-process\Project51\x64\Debug\Project51.exe
