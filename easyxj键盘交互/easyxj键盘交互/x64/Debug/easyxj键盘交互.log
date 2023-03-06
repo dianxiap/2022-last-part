@@ -1,0 +1,5 @@
+﻿  源.cpp
+E:\草稿箱\learning-process\easyxj键盘交互\easyxj键盘交互\源.cpp(31,18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\草稿箱\learning-process\easyxj键盘交互\easyxj键盘交互\源.cpp(31,15): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+E:\草稿箱\learning-process\easyxj键盘交互\easyxj键盘交互\源.cpp(68,23): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  easyxj键盘交互.vcxproj -> E:\草稿箱\learning-process\easyxj键盘交互\x64\Debug\easyxj键盘交互.exe
