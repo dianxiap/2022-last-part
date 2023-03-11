@@ -11,7 +11,6 @@ typedef struct
 {
 	int x, y;
 }node;
-
 //蛇头移动的方向
 enum direction
 {
