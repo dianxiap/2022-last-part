@@ -1,0 +1,3 @@
+﻿  源.cpp
+E:\草稿箱\learning-process\长草\长草\源.cpp(30,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  长草.vcxproj -> E:\草稿箱\learning-process\长草\x64\Debug\长草.exe
