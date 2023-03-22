@@ -1,0 +1,5 @@
+﻿  heap.c
+E:\草稿箱\learning-process\堆\堆\heap.c(69,9): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+  源.c
+  正在生成代码...
+  堆.vcxproj -> E:\草稿箱\learning-process\堆\x64\Debug\堆.exe
