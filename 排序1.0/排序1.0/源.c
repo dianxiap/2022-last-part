@@ -151,8 +151,9 @@ void QuickSort(int* a, int left, int right)
 		Swap(&a[left], &a[right]);
 	}
 	Swap(&a[keyi], &a[right]);
-	QuickSort(a, begin, right);
-	QuickSort(a, right+1, end);
+	keyi = right;
+	QuickSort(a, begin, keyi);
+	QuickSort(a, keyi+1, end);
 }
 
 int main()
