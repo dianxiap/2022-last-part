@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1679412025 source:c:\users\minecraft\documents\代码\io\itemdatabase.c
+	"Itemdatabase.h"
+
+1679412032 c:\users\minecraft\documents\代码\io\itemdatabase.h
+
+1679412776 source:c:\users\minecraft\documents\代码\io\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"My.h"
+	"Itemdatabase.h"
+
+1679410281 c:\users\minecraft\documents\代码\io\my.h
+
+1679410255 source:c:\users\minecraft\documents\代码\io\my.c
+	<stdio.h>
+	"My.h"
+
+1681310059 source:c:\users\minecraft\documents\demo\io\itemdatabase.c
+	"Itemdatabase.h"
+	<stdlib.h>
+
+1681309742 c:\users\minecraft\documents\demo\io\itemdatabase.h
+
+1681312163 source:c:\users\minecraft\documents\demo\io\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"MyIOLib.h"
+	"Itemdatabase.h"
+
+1679410281 c:\users\minecraft\documents\demo\io\my.h
+
+1679410255 source:c:\users\minecraft\documents\demo\io\my.c
+	<stdio.h>
+	"My.h"
+
+1681312516 c:\users\minecraft\documents\demo\io\myiolib.h
+
+1681312485 source:c:\users\minecraft\documents\demo\io\myiolib.c
+	<stdio.h>
+	"MyIOLib.h"
+
