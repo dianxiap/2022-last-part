@@ -1,0 +1,28 @@
+#pragma once
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <assert.h>
+
+void PrintArray(int* a, int n);
+// ≤Â»Î≈≈–Ú
+void InsertSort(int* a, int n);
+// œ£∂˚≈≈–Ú
+void ShellSort(int* a, int n);
+// —°‘Ò≈≈–Ú
+void SelectSort(int* a, int n);
+// ∂—≈≈–Ú
+void HeapSort(int* a, int n);
+// √∞≈›≈≈–Ú
+void BubbleSort(int* a, int n);
+// øÏÀŸ≈≈–Ú
+void QuickSort(int* a, int left,int right);
+// ∑«µ›πÈøÏÀŸ≈≈–Ú
+void QuickSortNorR(int* a, int left, int right);
+// πÈ≤¢≈≈–Ú
+void MergeSort(int* a, int n);
+// ∑«µ›πÈπÈ≤¢≈≈–Ú
+void MergeSOrtNonR(int* a, int n);
+
+// º∆ ˝≈≈–Ú
+void CountSort(int* a, int n);
